@@ -6,6 +6,7 @@ Repository created to study Docker. This Docker container, when executed, genera
 
 It's necessary to have `Git` and `Docker` installed in your machine.  
 You can download Git [here](https://git-scm.com/downloads) and Docker [here](https://www.docker.com/products/docker-desktop).
+Important: you need to enable **File Sharing** in Docker for the directory of the project.
 
 - Access the desired directory through `cmd` and clone the project  
 `git clone https://github.com/lorenapnmarcon/studying-docker.git`
@@ -15,7 +16,7 @@ You can download Git [here](https://git-scm.com/downloads) and Docker [here](htt
 `docker-compose run python-service`
 - Stop the service  
 `docker-compose stop`
-- Check for a file named **hello_docker.txt** in your folder.
+- Check for a file named **hello_docker.txt** in your directory.
 
 ### Authors
 
