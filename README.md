@@ -12,8 +12,6 @@ Important: you need to enable **File Sharing** in Docker for the directory of th
 `git clone https://github.com/lorenapnmarcon/studying-docker.git`
 - Build the container with Docker Compose  
 `docker-compose up -d`
-- Run the service  
-`docker-compose run python-service`
 - Stop the service  
 `docker-compose stop`
 - Check for a file named **hello_docker.txt** in your directory.
