@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  python-service:
+    build: "."
+    container_name: studying-docker-container
+    restart: always
+    volumes:
+      - .:/app
